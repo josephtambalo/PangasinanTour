@@ -9,6 +9,11 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+@media (min-width: 768px) {
+    main {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
 ion-icon{
     width: 50px;
     height: 30px;
