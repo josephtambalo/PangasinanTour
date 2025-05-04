@@ -11,7 +11,11 @@ body{
 	min-height: 100px;
     width: 100%;
 }
-
+@media (min-width: 768px) {
+    main {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
 .back-video{
     position: absolute;
     right: 0;
