@@ -1,0 +1,132 @@
+body {
+  margin: 50px 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  background-image: url("images/b.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: BLACK;
+}
+.images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: rgba(0, 255, 255, 0.449) 3px solid;
+  border-radius: 20px;
+}
+
+main {
+  max-width: 1200px;
+  margin: 40px auto 0;
+  padding: 0 24px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+@media (min-width: 768px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.about-text h1 {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 72px;
+  letter-spacing: -0.02em;
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  letter-spacing: 2px;
+  color: white;
+}
+.about-text p {
+  margin-top: 24px;
+  font-size: 15px;
+  line-height: 15px;
+  max-width: 300px;
+  text-transform: uppercase;
+  font-family: 'Courier New', monospace;
+  letter-spacing: 1px;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  margin-top: 90px;
+}
+.card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.373) 0%, rgba(255, 255, 255, 0.542) 100%);
+  
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 520px;
+  width: 100%;
+  position: relative;
+}
+.card .info-left,
+.card .info-right {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 16px;
+  max-width: 90px;
+  justify-content: space-between;
+  height: 120px;
+}
+.card .info-left {
+  text-align: left;
+}
+.card .info-right {
+  text-align: right;
+}
+.card .info-left .name,
+.card .info-right .name {
+  white-space: pre-line;
+}
+.card .info-left .line,
+.card .info-right .line {
+  border-bottom: 1px solid #111111;
+  width: 40px;
+  margin: 4px 0;
+}
+.card .info-left .position,
+.card .info-right .position {
+  white-space: pre-line;
+}
+.card .images {
+  display: flex;
+  gap: 20px;
+}
+.card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 16px;
+  object-fit: cover;
+  display: block;
+}
+.arrow-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  justify-content: flex-end;
+}
+.arrow-container svg {
+  stroke: #111111;
+  fill: none;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  width: 75px;
+  height: 90px;
+}
+.arrow-container svg:hover {
+  stroke: #00fff7;
+  transition: all 0.3s ease-in-out;
+}
