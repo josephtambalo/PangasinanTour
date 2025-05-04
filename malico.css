@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-image: url("images/b.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ion-icon{
+    width: 50px;
+    height: 30px;
+    padding: 5px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    transition: 0.5s ease;
+}
+ion-icon:hover{
+    color: #0ad2fff3;
+    
+} 
+ion-icon:active{
+    color: #0ad2fff3;
+}
+h1{
+    color: #1202f6;
+    margin-left: 20px;
+    margin-right: 0%;
+    align-items: center;
+    justify-content: center;
+}
+.col{
+    flex-basis: 50%;
+    margin-left: 10%;
+    flex-direction: column;
+}
+h4{
+    font-size: 15px;
+    color: rgba(252, 151, 0, 0.811);
+    text-shadow: 0 0 5px #999;
+    margin-top: 5px;
+}
+.row{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 100%;
+}
+.col{
+    flex-basis: 40%;
+    margin-left: 10%;
+}
+h2{
+    color: #fff;
+    font-size: 50px;
+}
+.pang{
+    font-size: 70px;
+}
+p{
+    color: #fff;
+    font-size: 14px;
+    line-height: 15px;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    border: 3px solid #00fff7;
+}
+.card1{
+    background-image: url("images/M3.jpg");
+}
+.card2{
+    background-image: url("images/M2.jpg");
+}
+.card3{
+    background-image: url('images/M1.jpg');
+}
+.card4{
+    background-image: url("images/M5.jpg");
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: orange;
+    text-shadow: 0 0 5px #999;
+}
+.card p {
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+h3{
+    font-size: 30px;
+}
+h5{
+    color: aqua;
+    font-size: 20px;
+}
