@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-image: url("images/b.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+ion-icon{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    color: whiet;
+    padding: 10px;
+    text-align: center;
+    transition: 0.5s ease;
+}
+ion-icon:hover{
+    color: #0ad2fff3;
+    
+} 
+ion-icon:active{
+    color: #0ad2fff3;
+}
+.arrow {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+header {
+    padding: 20px;
+    text-align: center;
+}
+.contact-container {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.info-block h3 {
+    font-family: 'Courier New', monospace;
+    letter-spacing: 2px;
+}
+.info-block p {
+    font-family: 'Courier New', monospace;
+    letter-spacing: 1px;
+    margin: 5px 0;
+}
+.info-block i {
+    font-family: 'Courier New', monospace;
+    letter-spacing: 1px;
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+.contact-form {
+    width: 50%;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+}
+
+.contact-form button {
+    margin-top: 15px;
+    align-self: flex-start;
+    background-color: transparent;
+    border: none;
+    color: lightgreen;
+    font-weight: bold;
+    cursor: pointer;
+}
