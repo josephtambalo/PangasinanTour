@@ -9,6 +9,7 @@ body{
 	background-size: cover;
 	background-position: center;
 	min-height: 100px;
+	background-image: url("images/b.jpg");
     width: 100%;
 }
 @media (min-width: 768px) {
@@ -16,13 +17,7 @@ body{
       grid-template-columns: 1fr 1fr;
     }
   }
-.back-video{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
-}
+
 ul{
 	float:right;
 	list-style-type: none;
